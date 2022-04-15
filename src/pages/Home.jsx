@@ -1,9 +1,10 @@
 import React from 'react';
+import ProducList from '../containers/ProductList';
 
 const Home = () => {
 
     return (
-        <div>Hello World</div>
+        <ProducList />
     );
 }
 
