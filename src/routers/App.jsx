@@ -12,11 +12,13 @@ import NotFound from '../pages/NotFound';
 import Order from '../pages/Order';
 import PasswordRecovery from '../pages/PasswordRecovery';
 import SendEmail from '../pages/SendEmail';
+import Header from '../components/Header';
 
 const App = ()=> {
 
     return (
         <Router>
+            <Header />
             <Routes>
                 <Route exact path='/checkout' element={ <Checkout /> }/>
                 <Route exact path='/create-account' element={ <CreateAccount /> }/>
